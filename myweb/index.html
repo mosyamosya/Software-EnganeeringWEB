@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="script.js"></script>
+  <!-- <script type="module" src="three.r134.min.js"></script>
+  <script type="module" src="vanta.globe.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+</head>
+
+<body>
+  <div id="container">
+
+    <div id="inner-text">
+      <div id="ahead">
+      </div>
+      <h1>Інженерія програмного забезпечення</h1>
+
+    </div>
+    <div class="hamburger-menu">
+      <input id="menu__toggle" type="checkbox" />
+      <label class="menu__btn" for="menu__toggle">
+        <span></span>
+      </label>
+
+      <ul class="menu__box">
+        <li><a class="menu__item" href="#">Головна</a></li>
+        <li><a class="menu__item" href="#">Про нас</a></li>
+        <li><a class="menu__item" href="#">Абітурієнту</a></li>
+        <li><a class="menu__item" href="#">Новини</a></li>
+        <li><a class="menu__item" href="#">Контакти</a></li>
+      </ul>
+    </div>
+    <div id="second-screen">
+      <div class="text-in-second-screen">
+        <div class="text-in-second-screen-main-text">
+          <h1>Про нас</h1>
+        </div>
+        <div class="img-text">
+          <div class="text-in-second-screen-img">
+            <img src="ph1-1170x500-1-1024x438.jpg">
+          </div>
+          <div class="text-in-second-screen-simple">
+            <p>Кафедру інженерії програмного забезпечення було створено у 2016 році у результаті реорганізації кафедри
+              інтелектуальних інформаційних систем (історія якої у свою чергу бере початок у 2003 році) шляхом її поділу
+              на
+              дві випускаючі кафедри. Завідувач кафедри канд. техн. наук, доцент Давиденко Євген Олександрович.</p>
+            <div class="button-more">
+              <a href="" class="double-border-button">Більше</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="third-screen">
+      <div class="text-in-third-screen">
+        <div class="text-in-second-screen-main-text">
+          <h1>Чому варто навчатися саме у нас?</h1>
+        </div>
+        <div class="img-text">
+          <div class="text-in-second-screen-img">
+            <a href="#"><img id="grow" src="icons/student.png"></a>
+            <p>На кафедрі інженерії програмного забезпечення працюють висококваліфіковані кадри, більше половини з яких
+              доктори та кандидати технічних наук. Частина викладачів суміщує викладацьку роботу із розробкою
+              програмного забезпечення у бюджетних та комерційних організаціях, що дає змогу ділитися зі студентами
+              практичними навичками розробки ПЗ.</p>
+          </div>
+          <div class="text-in-second-screen-img">
+            <a href="#"><img id="grow" src="icons/money.png"></a>
+            <p>Навчаючись у нас, студенти можуть зосередитись на отриманні знань, оскільки тут відсутні навіть натяки на
+              неправомірні можливості щодо складання заліків та іспитів. У нашому закладі все вирішуватимуть Ваші
+              знання, і це вже історична традиція, оскільки частина викладачів кафедри є випускниками ЧНУ ім.П.Могили.
+            </p>
+            <div class="text-in-second-screen-img">
+              <a href="#"><img id="grow" src="icons/it-department.png"></a>
+              <p>Завдяки своєму професійному рівню, наші студенти мають можливість працювати за спеціальністю, набуваючи
+                професійний досвід, ще продовжуючи своє навчання на старших курсах, а після випуску є затребуваними та
+                високооплачуваними спеціалістами своєї професійної області.
+              </p>
+            </div>
+          </div>
+
+          <div class="fourth-screen1">
+            <h1>Чому ми можемо Вас навчити?</h1>
+
+            <div class="fourth-screen1-first-block">
+              <div class="row">
+                <div class="column" id="color">
+                  <img src="oop.png" alt="Objeckt orientiered programming">
+                  <div class="text">
+                    <h4>Обєктно орієнтоване<br> програмування</h4>
+                  </div>
+                </div>
+                <div class="column" id="color">
+                  <img src="web-1.jpg" alt="Web Development"><br>
+                  <div class="text">
+                    <h4>Веб-розробка</h4>
+                  </div>
+                </div>
+                <div class="column" id="color">
+                  <img src="db.jpg" alt="Data Base">
+                  <div class="text">
+                    <h4>Розробка баз даних</h4>
+                  </div>
+                </div>
+                <div class="column" id="color">
+                  <img src="mob.jpg" alt="Mobile">
+                  <div class="text">
+                    <h4>Розробка застосунків<br> для мобільних пристроїв</h4>
+                  </div>
+
+                </div>
+                <!-- <h4>Обєктно-орієнтоване програмування</h4>
+                <a href="" class="double-border-button">Більше</a> -->
+              </div>
+
+            </div>
+          </div>
+
+          <div class="fourth-screen">
+            <h1>Це - ми!</h1>
+            <div class="carousel-wrapper">
+              <input type="radio" checked="checked" id="slide1" class="carousel-selector" name="carousel-selector" />
+              <input type="radio" id="slide2" class="carousel-selector" name="carousel-selector" />
+              <input type="radio" id="slide3" class="carousel-selector" name="carousel-selector" />
+
+              <ul class="carousel-items">
+                <li class="carousel-item carousel-item-blue">
+                </li>
+
+                <li class="carousel-item carousel-item-red">
+                </li>
+
+                <li class="carousel-item carousel-item-green">
+                </li>
+              </ul>
+
+              <ul class="carousel-labels">
+                <li class="carousel-label">
+                  <label for="slide1"></label>
+                </li>
+                <li class="carousel-label">
+                  <label for="slide2"></label>
+                </li>
+                <li class="carousel-label">
+                  <label for="slide3"></label>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+          <div class="fives-screen">
+            <div class="fives-screen-main-text">
+              <div class="text2">
+                <h1>Де нас знайти?</h1>
+              </div>
+              <div class="ourlocation">
+                <div class="map"><iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d364.0352460479924!2d32.0153917850977!3d46.971671506698286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c5cbd4efc81f6b%3A0xce65747b2a772481!2z0KfQndCjINC40LwuINCf0LXRgtGA0LAg0JzQvtCz0LjQu9GL!5e0!3m2!1sru!2suk!4v1665673635126!5m2!1sru!2suk"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                  <div class="icon">
+                    <a href="https://www.instagram.com/ipz_chmnu/"><img src="instagram.png"><p>Ми в Інстаграм</p></a>
+                    <a href="https://www.facebook.com/groups/SoftwareEngineeringChmnu/?ref=bookmarks"><img
+                        src="facebook.png"><p>Ми у Фейсбук</p></a>
+                    <a><img src="address.png"><p>2-й корп., ауд. 2-302</p></a>
+                  </div>
+                
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="footer">
+
+          
+
+        </div>
+      </div>
+
+</body>
+
+</html>
